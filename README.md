@@ -31,6 +31,12 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 
 **We discover how to support iOS 10 with creating another top constraint with the margin we want and have, and set the relation to equal-or-bigger, and the safe area constraint with a priority of 750.**
 
+```
+1. Create the constraint to top with the value you want, and make the 'Relation' Grater the or equal.
+2. Create constraint to safe area, and set the priority to 750.
+```
+![screen shot 2018-01-02 at 12 16 24](https://user-images.githubusercontent.com/6288542/34480816-3f10b204-efb7-11e7-94b5-6e5b496cf5ec.png)
+
 
 ##  Expand views for iPhone X notch and bottom layout, constraints only.
 
