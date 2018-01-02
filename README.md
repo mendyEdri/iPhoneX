@@ -7,8 +7,9 @@ here is the git repo
 
 What we covered today:
 
-1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it.=
-![Screenshot](https://imgur.com/a/EgrJ5)
+1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it.
+
+![image](file:///Users/mendyedri/Desktop/Screen%20Shot%202018-01-02%20at%2011.07.54.png)
 
 2. Subview safe area - a guide to help us keep elements on subviews be on subview and keep margin from safe area.
 
