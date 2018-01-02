@@ -4,7 +4,6 @@ Following today's guild,
 here is the git repo
 
 
-
 What we covered today:
 
 1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it.
