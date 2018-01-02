@@ -49,6 +49,31 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 ## Code!
 **We saw some code, to have the same solutions we had in constraint - to use programmatically when we creating or manipulating a view programmatically**
 
+```
+func createButtonWithConstraint() {
+        // creating the button
+        let button = UIButton.init()
+        button.setTitle("Close", for: .normal)
+        button.backgroundColor = UIColor.lightGray
+        view.addSubview(button)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        
+        // add top anchor margin to safe area
+        if #available(iOS 11.0, *) {
+            button.topAnchor.constraintEqualToSystemSpacingBelow(view.safeAreaLayoutGuide.topAnchor, multiplier: 1.0).isActive = true
+        } else {
+            // Fallback on earlier versions
+            let top = NSLayoutConstraint.init(item: button, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1.0, constant: 0)
+            view.addConstraint(top)
+        }
+        
+        // constraint for height, width & leading
+        let leading = NSLayoutConstraint.init(item: button, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1.0, constant: 14)
+        let height = NSLayoutConstraint.init(item: button, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 44)
+        let width = NSLayoutConstraint.init(item: button, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 100)
+        view.addConstraints([leading, width, height])
+    }
+```
 
 
 Thanks for participating, let me know if you have any comments.
