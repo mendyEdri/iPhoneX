@@ -7,6 +7,8 @@ here is the git repo
 What we covered today:
 
 1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it.
+
+## Enable safe area in XIB/Storyboard
 ![screen shot 2018-01-02 at 11 07 54](https://user-images.githubusercontent.com/6288542/34480097-1a7a27a8-efb3-11e7-9a30-ec7e1815d9e1.png)
 
 
