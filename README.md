@@ -1,7 +1,4 @@
 # iPhoneX
-<<<<<<< HEAD
-# iphonex
-=======
 
 Following today's guild, 
 here is the git repo
@@ -22,5 +19,4 @@ What we covered today:
 
 
 
-Thanks for participating, let me know if you have any comments 
->>>>>>> f9be0d7f708b12b880a7bce4dd2fe31e077b1082
+Thanks for participating, let me know if you have any comments.
