@@ -32,8 +32,8 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 **We discover how to support iOS 10 with creating another top constraint with the margin we want, and set the relation to equal-or-bigger with the safe area constraint - priority of 750**
 
 ```
-1. Create the constraint to top with the value you want, and make the 'Relation' Grater the or equal.
-2. Create constraint to safe area, and set the priority to 750.
+1. Set top layout constraint, and make the 'Relation' Grater the or equal.
+2. Set another top constraint to safe area, and set the priority to 750.
 ```
 ![screen shot 2018-01-02 at 12 16 24](https://user-images.githubusercontent.com/6288542/34480816-3f10b204-efb7-11e7-94b5-6e5b496cf5ec.png)
 
