@@ -42,7 +42,8 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 
 **We saw how to have an elegant solution for the bottom view (it can be top as well), increasing the size of the view on iPhone X, with constraint only - we create constraint from top of the view to safe area bottom instead of changing the size of the view programmatically**
 
-5. We saw some code, to have the same solutions we had in constraint - to use programmatically when we creating or manipulating a view programmatically.
+## Code!
+**We saw some code, to have the same solutions we had in constraint - to use programmatically when we creating or manipulating a view programmatically**
 
 
 
