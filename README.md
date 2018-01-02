@@ -13,6 +13,8 @@ What we covered:
 ![screen shot 2018-01-02 at 11 07 54](https://user-images.githubusercontent.com/6288542/34480097-1a7a27a8-efb3-11e7-9a30-ec7e1815d9e1.png)
 
 
+## Subview Safe Area Guide
+
 **2. Subview safe area - a guide to help us keep elements on subviews be on subview and keep margin from safe area.**
 
 
