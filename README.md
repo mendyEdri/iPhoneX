@@ -47,7 +47,7 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 
 
 ## Code!
-**We saw some code, to have the same solutions we had in constraint - to use programmatically when we creating or manipulating a view programmatically**
+**Here is a code snippet, creating a button and keep space from top, in iPhone x notch, and in other iPhone's**
 
 ```
 func createButtonWithConstraint() {
