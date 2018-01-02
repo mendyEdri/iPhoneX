@@ -17,6 +17,7 @@ What we covered:
 
 
 Select the Subview you wish to have a safe area enabled on, go to size tab and check the option **'Safe Area Layout Guide'**.
+
 ![screen shot 2018-01-02 at 11 59 17](https://user-images.githubusercontent.com/6288542/34480384-d0ad1944-efb4-11e7-99d8-565e2df53e9d.png)
 
 
