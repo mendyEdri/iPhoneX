@@ -23,6 +23,7 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 ![screen shot 2018-01-02 at 11 59 17](https://user-images.githubusercontent.com/6288542/34480384-d0ad1944-efb4-11e7-99d8-565e2df53e9d.png)
 
 **Now you will see another safe area that related to the subview, that you can have a constraints to.**
+
 ![screen shot 2018-01-02 at 11 59 04](https://user-images.githubusercontent.com/6288542/34480605-1cebda60-efb6-11e7-8416-0c0a63aa0a60.png)
 
 
@@ -30,7 +31,10 @@ Select the Subview you wish to have a safe area enabled on, go to size tab and c
 
 **We discover how to support iOS 10 with creating another top constraint with the margin we want and have, and set the relation to equal-or-bigger, and the safe area constraint with a priority of 750.**
 
-4. We saw how to have an elegant solution for the bottom view (it can be top as well), increasing the size of the view on iPhone X, with constraint only - we create constraint from top of the view to safe area bottom instead of changing the size of the view programmatically. 
+
+##  Expand views for iPhone X notch and bottom layout, constraints only.
+
+**We saw how to have an elegant solution for the bottom view (it can be top as well), increasing the size of the view on iPhone X, with constraint only - we create constraint from top of the view to safe area bottom instead of changing the size of the view programmatically**
 
 5. We saw some code, to have the same solutions we had in constraint - to use programmatically when we creating or manipulating a view programmatically.
 
