@@ -9,7 +9,7 @@ What we covered today:
 
 1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it.=
 
-https://imgur.com/a/EgrJ5
+![Alt text](https://imgur.com/a/EgrJ5?raw=true "Title")
 
 2. Subview safe area - a guide to help us keep elements on subviews be on subview and keep margin from safe area.
 
