@@ -8,11 +8,17 @@ What we covered:
 
 **1. Introducing to Safe Area - the problem on iPhone x without safe area, and how safe area can solve it**
 
+
 ## Enable safe area in XIB/Storyboard
 ![screen shot 2018-01-02 at 11 07 54](https://user-images.githubusercontent.com/6288542/34480097-1a7a27a8-efb3-11e7-9a30-ec7e1815d9e1.png)
 
 
-2. Subview safe area - a guide to help us keep elements on subviews be on subview and keep margin from safe area.
+**2. Subview safe area - a guide to help us keep elements on subviews be on subview and keep margin from safe area.**
+
+
+Select the Subview you wish to have a safe area enabled on, go to size tab and check the option **'Safe Area Layout Guide'**.
+![screen shot 2018-01-02 at 11 59 17](https://user-images.githubusercontent.com/6288542/34480384-d0ad1944-efb4-11e7-99d8-565e2df53e9d.png)
+
 
 3. We discover how to support iOS 10 with creating another top constraint with the margin we want and have, and set the relation to equal-or-bigger, and the safe area constraint with a priority of 750.
 
